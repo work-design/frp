@@ -1,0 +1,15 @@
+serverAddr = '123.207.31.122'
+serverPort = 7000
+
+[[proxies]]
+name = 'web'
+type = 'http'
+localPort = 3002
+customDomains = ['test.work.design']
+
+[[proxies]]
+name = 'ws'
+type = 'tcp'
+protocol = 'wss'
+localPort = 3002
+customDomains = ['test.work.design']

@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 Restart=on-failure
 RestartSec=5s
-ExecStart=/home/ubuntu/frp/frps/frps -c /home/ubuntu/frp/frps/frps.ini
+ExecStart=/home/ubuntu/frp/frps/frps -c /home/ubuntu/frp/frps/frps.toml
 
 [Install]
 WantedBy=multi-user.target
