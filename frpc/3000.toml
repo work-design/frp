@@ -4,12 +4,12 @@ serverPort = 7000
 [[proxies]]
 name = 'web'
 type = 'http'
-localPort = 3003
+localPort = 3000
 customDomains = ['test.work.design']
 
 [[proxies]]
 name = 'ws'
 type = 'tcp'
 protocol = 'wss'
-localPort = 3003
+localPort = 3000
 customDomains = ['test.work.design']
