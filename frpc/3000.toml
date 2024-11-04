@@ -5,11 +5,11 @@ serverPort = 7000
 name = 'web'
 type = 'http'
 localPort = 3000
-customDomains = ['test.work.design']
+subdomain = 'test'
 
 [[proxies]]
 name = 'ws'
 type = 'tcp'
 protocol = 'wss'
 localPort = 3000
-customDomains = ['test.work.design']
+subdomain = 'test'
