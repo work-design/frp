@@ -1,4 +1,4 @@
-serverAddr = '123.207.31.122'
+serverAddr = '124.70.4.130'
 serverPort = 7000
 
 [[proxies]]
