@@ -10,6 +10,4 @@ subdomain = 'test'
 [[proxies]]
 name = 'ws'
 type = 'tcp'
-protocol = 'wss'
 localPort = 3000
-subdomain = 'test'
